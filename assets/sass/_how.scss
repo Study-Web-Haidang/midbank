@@ -1,0 +1,32 @@
+.how {
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 925px;
+    .item {
+        font-family: $secondary--font;
+        // width: 21%;
+        width: calc((925px - 90px * 2) / 3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__icon {
+            width: 150px;
+        }
+        &__title {
+            text-align: center;
+            font-size: 24px;
+            line-height: 1.5;
+            font-weight: 600;
+            color: $text-light;
+            padding: 34px 0 10px;
+        }
+        &__span {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: $text-dark;
+        }
+    }
+}

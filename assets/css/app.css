@@ -168,4 +168,31 @@ html {
         left: 145px;
         opacity: 1; }
 
+.how {
+  padding: 120px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 925px; }
+  .how .item {
+    font-family: "Poppins", sans-serif;
+    width: calc((925px - 90px * 2) / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .how .item__icon {
+      width: 150px; }
+    .how .item__title {
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.5;
+      font-weight: 600;
+      color: #fff;
+      padding: 34px 0 10px; }
+    .how .item__span {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #777e90; }
+
 /*# sourceMappingURL=app.css.map */
