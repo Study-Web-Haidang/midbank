@@ -195,4 +195,38 @@ html {
       font-weight: 400;
       color: #777e90; }
 
+.aboutus {
+  display: flex;
+  align-items: center; }
+  .aboutus__sub-content {
+    width: 50%; }
+  .aboutus__content {
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    padding-left: 85px; }
+    .aboutus__content__tag {
+      display: inline;
+      font-size: 12px;
+      font-weight: 700;
+      background: linear-gradient(left, #63b8b1, #f99838);
+      background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .aboutus__content__title {
+      font-family: "DM Sans", sans-serif;
+      margin: 14px 0 42px;
+      font-size: 44px;
+      line-height: 1.27;
+      font-weight: 700; }
+    .aboutus__content__span {
+      font-size: 18px;
+      font-weight: 500;
+      color: #ffffff6e;
+      line-height: 1.5;
+      padding-bottom: 14px; }
+    .aboutus__content__button a {
+      color: #eea153;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1; }
+
 /*# sourceMappingURL=app.css.map */

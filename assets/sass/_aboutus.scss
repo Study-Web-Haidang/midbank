@@ -1,0 +1,40 @@
+.aboutus {
+    display: flex;
+    align-items: center;
+    &__sub-content {
+        width: 50%;
+    }
+    &__content {
+        font-family: $secondary--font;
+        width: 50%;
+        padding-left: 85px;
+        &__tag {
+            display: inline;
+            font-size: 12px;
+            font-weight: 700;
+            background: linear-gradient(left, #63b8b1, #f99838);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__title {
+            font-family: $primary--font;
+            margin: 14px 0 42px;
+            font-size: 44px;
+            line-height: 1.27;
+            font-weight: 700;
+        }
+        &__span {
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffffff6e;
+            line-height: 1.5;
+            padding-bottom: 14px;
+        }
+        &__button a {
+            color: #eea153;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1;
+        }
+    }
+}
